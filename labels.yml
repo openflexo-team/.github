@@ -89,3 +89,6 @@
 - name: "wontfix"
   color: "ffffff"
   description: "Will not be worked on"
+- name: "to-be-discussed"
+  color: "e4a11b"
+  description: "To be discussed at a development planning meeting"
