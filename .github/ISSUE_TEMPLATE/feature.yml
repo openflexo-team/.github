@@ -1,0 +1,16 @@
+name: Feature or evolution
+description: A new capability, an evolution or a refactoring
+title: "<PREFIX>-F-<n>: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes: {label: Problem, description: What is missing or awkward today}
+    validations: {required: true}
+  - type: textarea
+    id: options
+    attributes: {label: Options considered}
+  - type: textarea
+    id: acceptance
+    attributes: {label: Acceptance criteria}
+    validations: {required: true}

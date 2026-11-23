@@ -1,0 +1,19 @@
+name: Defect
+description: Something does not work as documented
+title: "<PREFIX>-D-<n>: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: symptom
+    attributes: {label: Symptom, description: What happens, and what you expected}
+    validations: {required: true}
+  - type: textarea
+    id: repro
+    attributes: {label: How to reproduce, description: Steps, FML script or test}
+    validations: {required: true}
+  - type: input
+    id: version
+    attributes: {label: Version or branch, placeholder: "3.0"}
+  - type: textarea
+    id: workaround
+    attributes: {label: Workaround, description: If any}
