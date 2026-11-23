@@ -1,9 +1,14 @@
 # Contributing to OpenFlexo
 
-1. Open an issue titled `<PREFIX>-D-<n>: summary` (defect) or `<PREFIX>-F-<n>: summary` (feature); the templates guide you.
-2. Fork, then create a branch `bugfix/xxx` or `feature/xxx`; add or update tests.
-3. Commit with a subject `LEVEL / <ID>: summary` (LEVEL is LOW, MEDIUM or IMPORTANT), then open a pull request with `Fixes #N`.
+Thank you for contributing! The full guide to reporting, labelling, planning and fixing issues is
+[Issues and planning](https://openflexo.org/docs/develop/issue-workflow).
 
-## Labels
-`area:*` (domain), `repro:*` (reproduction), `status:*` (blocked, deferred, in-progress, needs-info), `resolved:*` (reason for closing), plus bug, enhancement, refactoring, breaking-change.
-Planning (Status, Priority, Size, Target) lives in the organisation Project, not in labels.
+In short:
+
+1. Open an issue in the repository concerned, using the **Defect** or **Feature or evolution** form.
+2. Fork, create a branch (`bugfix/xxx` or `feature/xxx`) and add or update a test.
+3. Commit with a subject `LEVEL / <ID>: summary` (`LOW`, `MEDIUM` or `IMPORTANT`), then open a pull request
+   mentioning `Fixes #N`.
+
+Labels, templates and this guide are shared by every repository of the organisation; a repository that has its
+own `CONTRIBUTING.md` keeps it.
